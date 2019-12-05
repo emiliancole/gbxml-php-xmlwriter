@@ -1,2 +1,2 @@
 # gbxml-php-xmlwriter
-PHP XMLWriter extension for gbXML Green Building XML.
+PHP XMLWriter extension to write gbXML (Green Building XML) files.
