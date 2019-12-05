@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gbXML id="gbxml-001" engine="analysis-eng-001" temperatureUnit="C" lengthUnit="Meters" areaUnit="SquareMeters" volumeUnit="CubicMeters" useSIUnitsForResults="true" version="0.37">
+ <Zone id="lay-001">
+  <Name>Name of the Zone</Name>
+  <Description>Description of the Zone</Description>
+  <AirChangesPerHour>3.00</AirChangesPerHour>
+  <OAFlowPerArea unit="CubicMPerHourPerSquareM">2.00</OAFlowPerArea>
+  <OAFlowPerPerson unit="CubicMPerHr">1.00</OAFlowPerPerson>
+  <DesignHeatT unit="C">10.00</DesignHeatT>
+  <DesignCoolT unit="C">20.00</DesignCoolT>
+  <CADObjectId>378297</CADObjectId>
+ </Zone>
+</gbXML>

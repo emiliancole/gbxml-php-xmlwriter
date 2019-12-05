@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gbXML id="gbxml-001" engine="analysis-eng-001" temperatureUnit="C" lengthUnit="Meters" areaUnit="SquareMeters" volumeUnit="CubicMeters" useSIUnitsForResults="true" version="0.37">
+ <Layer id="lay-001">
+  <Name>Name of the Layer</Name>
+  <Description>Description of the Layer</Description>
+  <MaterialId materialIdRef="mat-244"/>
+  <MaterialId materialIdRef="mat-354"/>
+  <MaterialId materialIdRef="mat-452"/>
+  <Cost costType="PurchaseCost">
+   <CostValue currency="Euros">100.00</CostValue>
+   <Reference>the reference</Reference>
+  </Cost>
+  <HOutside>0.000</HOutside>
+ </Layer>
+</gbXML>

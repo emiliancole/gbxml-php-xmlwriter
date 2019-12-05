@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<gbXML id="gbxml-001" engine="analysis-eng-001" temperatureUnit="C" lengthUnit="Meters" areaUnit="SquareMeters" volumeUnit="CubicMeters" useSIUnitsForResults="true" version="0.37">
+ <Surface id="srf-001" surfaceType="InteriorWall" constructionIdRef="constructionIdRef-001">
+  <Name>Name of the Surface</Name>
+  <Description>Description of the Surface</Description>
+  <RectangularGeometry>
+   <Azimuth>0</Azimuth>
+   <Tilt>0</Tilt>
+   <Width>0</Width>
+   <Height>0</Height>
+   <CartesianPoint>
+    <Coordinate>0</Coordinate>
+    <Coordinate>0</Coordinate>
+    <Coordinate>0</Coordinate>
+   </CartesianPoint>
+  </RectangularGeometry>
+  <PlanarGeometry>
+   <PolyLoop>
+    <CartesianPoint>
+     <Coordinate>0</Coordinate>
+     <Coordinate>0</Coordinate>
+     <Coordinate>0</Coordinate>
+    </CartesianPoint>
+    <CartesianPoint>
+     <Coordinate>0</Coordinate>
+     <Coordinate>0</Coordinate>
+     <Coordinate>0</Coordinate>
+    </CartesianPoint>
+    <CartesianPoint>
+     <Coordinate>0</Coordinate>
+     <Coordinate>0</Coordinate>
+     <Coordinate>0</Coordinate>
+    </CartesianPoint>
+    <CartesianPoint>
+     <Coordinate>0</Coordinate>
+     <Coordinate>0</Coordinate>
+     <Coordinate>0</Coordinate>
+    </CartesianPoint>
+   </PolyLoop>
+  </PlanarGeometry>
+  <AdjacentSpaceId spaceIdRef="spaceid01"/>
+  <AdjacentSpaceId spaceIdRef="spaceid01"/>
+ </Surface>
+</gbXML>

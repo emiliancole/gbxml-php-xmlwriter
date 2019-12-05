@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<gbXML id="gbxml-001" engine="analysis-eng-001" temperatureUnit="C" lengthUnit="Meters" areaUnit="SquareMeters" volumeUnit="CubicMeters" useSIUnitsForResults="true" version="0.37">
+ <Construction id="con-001">
+  <Name>R0 3m CMU Wall</Name>
+  <Description>ASHRAE 90.1 compliant R0 concrete or block wall</Description>
+  <U-value unit="WPerSquareMeterK">6.452</U-value>
+  <Roughness value="Rough"/>
+  <Albedo unit="Percent">0.55</Albedo>
+  <Reflectance unit="Percent" type="IntIR" surfaceType="1">20</Reflectance>
+  <Transmittance unit="Percent" type="Solar" surfaceType="1">10</Transmittance>
+  <Emittance unit="Percent" type="IntIR" surfaceType="Both">0.90</Emittance>
+  <Cost costType="PurchaseCost">
+   <CostValue currency="Euros">20.00</CostValue>
+   <Reference>cost ref.</Reference>
+  </Cost>
+  <PercentExisting unit="Percent">0.00</PercentExisting>
+  <LayerId id="lay-001"/>
+  <ExtEquipId extEquipIdRef="extequip-001"/>
+  <LoadCalcInputParameters>
+   <CLTDParameters roofASHRAENumber="0" wallASHRAEGroup="A" roofColor="Dark" roofHasSuspendedCeiling="false" wallColor="Medium"/>
+   <ManualJ8Parameters wallGroupManualJ="A" roofCLTDIndex="1" floorCrawlSpaceWallUValue="0.000" floorCrawlSpaceIsSealed="true" floorCategory="OverEnclosedCrawlSpaceOrBasement"/>
+   <FloorSlabHeatLossCoefficient floorSlabPerimeterHeatLossCoefficientUnitTypeEnum="wattDegreeCPerLinearMeter">0.000</FloorSlabHeatLossCoefficient>
+  </LoadCalcInputParameters>
+  <R-value unit="SquareMeterKPerW">2.38</R-value>
+  <Thickness unit="Meters">0.30</Thickness>
+  <Conductivity unit="WPerMeterK">0.725</Conductivity>
+  <Density unit="KgPerCubicM">1810.260</Density>
+  <SpecificHeat unit="JPerKgK">837.360</SpecificHeat>
+  <Permeance unit="PermSI">1.000</Permeance>
+  <Porosity unit="Percent">5.0</Porosity>
+  <Fire>
+   <Thickness unit="Meters">0.20</Thickness>
+   <Conductivity unit="WPerMeterK">0.500</Conductivity>
+  </Fire>
+  <IndoorAirQuality id="iaq-001">
+   <EmissionRate unit="GramsPerHour">0.00</EmissionRate>
+   <SinkRate unit="GramsPerHour">0.00</SinkRate>
+   <HighLimit unit="Percent">10.00</HighLimit>
+  </IndoorAirQuality>
+  <CADMaterialId CADMaterialIdRef="cadmatid-001"/>
+  <Reference>material ref.</Reference>
+ </Construction>
+</gbXML>
